@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>GET Request Form</title>
+</head>
+<body>
+    <form action="https://admin.pm-chiba.tech/quiz.php" method="get">
+        <label for="id">学生番号:</label>
+        <input type="text" id="id" name="id" required>
+        <input type="hidden" name="teacher" value="yabuki">
+        <button type="submit">送信</button>
+    </form>
+</body>
+</html>
